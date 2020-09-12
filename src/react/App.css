@@ -1,3 +1,11 @@
 .App {
-  text-align: center;
+	margin:4rem auto;
+	padding:2rem 3rem 3rem;
+  max-width: 80%;
+  height: 70vh;
+	background:#FF6666;
+  color:#FFF;
+  -webkit-box-shadow: 7px 10px 47px -5px rgba(0,0,0,0.5);
+  -moz-box-shadow: 7px 10px 47px -5px rgba(0,0,0,0.5);
+  box-shadow: 7px 10px 47px -5px rgba(0,0,0,0.5);
 }

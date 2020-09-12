@@ -17,7 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start-electron": "export ELECTRON_START_URL=http://localhost:3000 && electron ."
+    "start-electron": "export ELECTRON_START_URL=http://localhost:3000 && electron .",
+    "both": "concurrently \"npm:start\" \"npm:start-electron\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "concurrently": "^5.3.0",
     "electron": "^10.1.1"
   }
 }
